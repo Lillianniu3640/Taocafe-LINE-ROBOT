@@ -1,0 +1,171 @@
+{
+  "type": "flex",
+  "altText": "尋找的咖啡廳",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "kilo",
+        "hero": {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip11.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://images.vectorhq.com/images/previews/08e/coffee-cup-icon-29302.png",
+                  "size": "xl"
+                },
+                {
+                  "type": "text",
+                  "text": "走走咖啡",
+                  "weight": "bold",
+                  "size": "20px",
+                  "margin": "md",
+                  "offsetStart": "none"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "lg",
+              "spacing": "lg",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "地址",
+                      "color": "#666666",
+                      "size": "sm",
+                      "flex": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": "桃園市桃園區寶山街358號",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm",
+                      "flex": 5
+                    }
+                  ],
+                  "margin": "4px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "baseline",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "營業時間",
+                          "color": "#666666",
+                          "size": "sm",
+                          "flex": 2
+                        },
+                        {
+                          "type": "text",
+                          "text": "10~21，六日為0830~2100",
+                          "wrap": true,
+                          "color": "#666666",
+                          "size": "sm",
+                          "flex": 5
+                        }
+                      ]
+                    }
+                  ],
+                  "margin": "3px",
+                  "paddingTop": "3px",
+                  "paddingBottom": "3px"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "baseline",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "wifi評分",
+                          "color": "#666666",
+                          "size": "sm",
+                          "flex": 2
+                        },
+                        {
+                          "type": "text",
+                          "text": "5",
+                          "wrap": true,
+                          "color": "#666666",
+                          "size": "sm",
+                          "flex": 5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "spacing": "xl",
+          "paddingAll": "15px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "地圖導航",
+                "uri": "http://maps.google.com/maps?q=loc:25.01110200,121.31209600"
+              },
+              "height": "sm",
+              "margin": "md"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "店家網址",
+                "uri": "https://www.facebook.com/goaroundwithus/"
+              },
+              "height": "sm",
+              "margin": "md"
+            }
+          ]
+        },
+        "styles": {
+          "footer": {
+            "separator": true
+          }
+        }
+      }
+    ]
+  }
+}
